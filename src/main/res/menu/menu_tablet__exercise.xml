@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.chitingwang.w4_assignment_tabletexercise.com.chitingwang.W5_UsedBook_Assignment.Tablet_Exercise">
+    tools:context="com.chitingwang.w5_usebook.com.chitingwang.W5_UsedBook_Assignment.Tablet_Exercise">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"

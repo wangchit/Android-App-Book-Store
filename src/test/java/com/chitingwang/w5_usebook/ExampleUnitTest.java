@@ -1,4 +1,4 @@
-package com.chitingwang.w4_assignment_tabletexercise;
+package com.chitingwang.w5_usebook;
 
 import org.junit.Test;
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.chitingwang.w4_assignment_tabletexercise.UsedBookshelf_Page1"
+    tools:context="com.chitingwang.w5_usebook.UsedBookshelf_Page1"
     >
 
     <android.support.design.widget.AppBarLayout

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="@dimen/margin_side"
     android:layout_marginRight="@dimen/margin_side"
-    tools:context="com.chitingwang.w4_assignment_tabletexercise.UsedBookdetails_Page2_Fragment"
+    tools:context="com.chitingwang.w5_usebook.UsedBookdetails_Page2_Fragment"
     tools:showIn="@layout/activity_used_book_page_2">
 
     <TextView

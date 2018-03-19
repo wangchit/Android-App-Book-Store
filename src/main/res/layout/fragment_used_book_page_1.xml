@@ -7,7 +7,7 @@
     android:layout_marginLeft="@dimen/margin_side"
     android:layout_marginRight="@dimen/margin_side"
     android:orientation="vertical"
-    tools:context="com.chitingwang.w4_assignment_tabletexercise.UsedBookshelf_Page1_Fragment"
+    tools:context="com.chitingwang.w5_usebook.UsedBookshelf_Page1_Fragment"
     tools:showIn="@layout/activity_used_book_page_1">
 
     <TextView

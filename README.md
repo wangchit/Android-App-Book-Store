@@ -13,3 +13,5 @@ If a user has indicated interest (they are able to do this on the “Book Detail
 
 It permits “liking” of more than 1 book on the first screen. 
 The like can be removed if the user changes his/her mind after initially liking it.
+
+![alt text](https://github.com/wangchit/Book-Store-Android-App/blob/master/used_book_shop_screenshot.png)

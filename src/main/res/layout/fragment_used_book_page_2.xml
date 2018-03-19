@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/artho"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin_side"
+    android:layout_marginRight="@dimen/margin_side"
+    tools:context="com.chitingwang.w4_assignment_tabletexercise.UsedBookdetails_Page2_Fragment"
+    tools:showIn="@layout/activity_used_book_page_2">
+
+    <TextView
+        android:id="@+id/bookDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descripDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ReturnBtn"
+        android:layout_alignStart="@id/priceTitle"
+        android:layout_below="@+id/price"
+        android:layout_marginRight="@dimen/margin_side"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/bookPage2Image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bookDetailTitle"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/aws" />
+
+    <CheckBox
+        android:id="@+id/Page2Like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookDetailTitle"
+        android:layout_toRightOf="@+id/bookPage2Image"
+        android:layout_marginTop="30dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/arthorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bookPage2Image"
+        android:layout_below="@+id/bookPage2Image"
+        android:layout_marginTop="20dp"
+        android:text="Arthor:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/priceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bookPage2Image"
+        android:layout_alignTop="@+id/arthor"
+        android:layout_marginTop="28dp"
+        android:text="Price:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/arthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/arthorTitle"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignTop="@+id/arthorTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/bookPage2Image"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/priceTitle"
+        android:layout_alignStart="@+id/arthor"
+        android:layout_alignTop="@+id/priceTitle"
+        android:layout_below="@+id/arthor"
+        android:layout_toEndOf="@+id/bookPage2Image"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/likeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Page2Like"
+        android:layout_centerInParent="false"
+        android:layout_toEndOf="@+id/Page2Like"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/ReturnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Page2Like"
+        android:layout_marginBottom="22dp"
+        android:text="Go Back"
+        android:textSize="14sp" />
+
+</RelativeLayout>

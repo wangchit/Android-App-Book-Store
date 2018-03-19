@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UsedBook_Store</string>
+    <string name="hash_like_text">You like!</string>
+    <string name="action_settings">Settings</string>
+<!--
+    <string name="micro_detail">“Microservices architectural style is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare mininum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.”</string>
+    <string name="micro_detail_title">Production Ready MicroServices</string>
+    <string name="micro_arthor">Susan J. Fowler</string>
+    <string name="micro_price">29 Euro</string>
+
+    <string name="kuber_detail">Google revealed the secret through a project called Kubernetes, an open source cluster orchestrator that radically simplifies the task of building, deploying, and maintaining scalable distributed systems in the cloud. This practical guide shows you how Kubernetes and container technology can help you achieve new levels of efficiency.</string>
+    <string name="kuber_detail_title">The Kubernetes Book</string>
+    <string name="kuber_arthor">Nigel Poulton</string>
+    <string name="kuber_price">30 Euro</string>
+    -->
+</resources>

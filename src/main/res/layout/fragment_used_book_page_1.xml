@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin_side"
+    android:layout_marginRight="@dimen/margin_side"
+    android:orientation="vertical"
+    tools:context="com.chitingwang.w4_assignment_tabletexercise.UsedBookshelf_Page1_Fragment"
+    tools:showIn="@layout/activity_used_book_page_1">
+
+    <TextView
+        android:id="@+id/hashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="25dp"
+        android:text="    Used Books for Sales"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/awsPage1Image"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/hashTitle"
+        android:layout_below="@+id/hashTitle"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/aws"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/awsSeeDetailBtn"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/image_width"
+            android:layout_marginTop="17dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kuberPage1Image"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/awsPage1Image"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/hashTitle"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/kuber"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kuberSeeDetailBtn"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/image_width"
+            android:layout_marginTop="17dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/microPage1Image"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/awsPage1Image"
+        android:layout_below="@+id/hashTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/microservice">
+
+        <Button
+            android:id="@+id/microSeeDetailBtn"
+            android:layout_width="80dp"
+            android:layout_height="@dimen/image_width"
+            android:layout_marginTop="17dp"
+            android:background="@null" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/like_AWS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/like_Kuber"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/awsPage1Image"
+        android:drawableStart="@drawable/ic_thumb_up_black_24dp"
+        android:gravity="center"
+        android:text="@string/hash_like_text"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/like_Kuber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/like_Micro"
+        android:layout_alignBottom="@+id/like_Micro"
+        android:layout_alignEnd="@+id/kuberPage1Image"
+        android:layout_below="@id/kuberPage1Image"
+        android:layout_marginTop="@dimen/margin_side"
+        android:drawableStart="@drawable/ic_thumb_up_black_24dp"
+        android:text="@string/hash_like_text" />
+
+    <TextView
+        android:id="@+id/like_Micro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/microPage1Image"
+        android:layout_below="@+id/microPage1Image"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:drawableStart="@drawable/ic_thumb_up_black_24dp"
+        android:text="@string/hash_like_text" />
+
+</RelativeLayout>
